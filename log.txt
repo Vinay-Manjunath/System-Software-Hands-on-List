@@ -1,0 +1,4 @@
+test_file
+test_file_hrdlink
+test_file_sftlink
+Daemon triggered script at 13:28
