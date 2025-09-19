@@ -1,7 +1,7 @@
 /*
 ============================================================================
-Name : 28_realtime_priority.c
-Author : Your Name
+Name : 28.c
+Author : M Vinay
 Date : 5st Sept, 2025
 Description :
     Write a program to get maximum and minimum real time priority
