@@ -1,3 +1,20 @@
+/*
+============================================================================
+Name        : 16.c
+Author      : M Vinay
+Description : Write a program to send and receive data from parent to child vice versa. Use two way
+communication.
+Date        : 21st Sept, 2025
+============================================================================
+Sample Execution:
+$ cc 16.c
+$ ./a.out
+From parent to child process: Hi, How are you?
+
+From child to parent process: I am fine
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

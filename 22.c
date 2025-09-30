@@ -1,3 +1,19 @@
+/*
+============================================================================
+Name        : 22.c
+Author      : M Vinay
+Description : Wait for data to be written into FIFO within 10 seconds using select() system call.
+Date        : 30th Sept, 2025
+============================================================================
+Sample Execution:
+$ gcc 22.c -o 22
+$ ./22
+Received Data: Hello FIFO
+//or
+Timeout, no data written to fifo
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

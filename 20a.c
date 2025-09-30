@@ -1,3 +1,17 @@
+/*
+============================================================================
+Name        : 20a.c
+Author      : M Vinay
+Description : Write a message to a FIFO (one-way communication).
+Date        : 30th Sept, 2025
+============================================================================
+Sample Execution:
+$ gcc 20a.c -o 20a
+$ ./20a
+Message sent to FIFO
+============================================================================
+*/
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

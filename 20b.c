@@ -1,3 +1,17 @@
+/*
+============================================================================
+Name        : 20b.c
+Author      : M Vinay
+Description : Read a message from a FIFO (one-way communication).
+Date        : 30th Sept, 2025
+============================================================================
+Sample Execution:
+$ gcc 20b.c -o 20b
+$ ./20b
+Message received from FIFO: Hi! How are you?
+============================================================================
+*/
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

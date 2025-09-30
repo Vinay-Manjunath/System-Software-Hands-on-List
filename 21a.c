@@ -1,3 +1,20 @@
+/*
+============================================================================
+Name        : 21a.c
+Author      : M Vinay
+Description : Two-way communication using FIFO. Acts as User 1 (writes to fifo1, reads from fifo2)
+Date        : 30th Sept, 2025
+============================================================================
+Sample Execution:
+$ gcc 21a.c -o 21a
+$ ./21a
+You: Hi
+Friend: Hello
+You: exit
+============================================================================
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

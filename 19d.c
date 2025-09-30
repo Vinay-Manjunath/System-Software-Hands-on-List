@@ -1,3 +1,17 @@
+/*
+============================================================================
+Name        : 19d.c
+Author      : M Vinay
+Description : Create a FIFO using the mknod() system call.
+Date        : 30th Sept, 2025
+============================================================================
+Sample Execution:
+$ gcc 19d.c -o 19d
+$ ./19d
+FIFO created using mknod() syscall: mknod_fifo
+============================================================================
+*/
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
